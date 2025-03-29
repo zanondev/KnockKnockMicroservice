@@ -9,7 +9,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     networks:
-      - minha-rede
+      - my-network
 
   knockknockmicroservice:
     image: knockknockmicroservice  
@@ -21,7 +21,7 @@ services:
     depends_on:
       - hellomicroservice
     networks:
-      - minha-rede
+      - my-network
 
 networks:
-  minha-rede:
+  my-network:
