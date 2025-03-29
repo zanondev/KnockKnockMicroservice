@@ -34,45 +34,7 @@ docker-compose down
 
 This command will stop and remove the running containers.
 
-## 3. Create Containers
-
-To create and run containers directly from the images, use the following commands:
-
-### Create the `hellomicroservice` container
-
-```bash
-docker run -d -p 5015:8080 -e ASPNETCORE_ENVIRONMENT=Development --name hellomicroservice-container hellomicroservice
-```
-
-### Create the `knockknockmicroservice` container
-
-```bash
-docker run -d -p 8081:8080 -e ASPNETCORE_ENVIRONMENT=Development --name knockknockmicroservice-container knockknockmicroservice
-```
-
-These commands will create and run the containers with the appropriate environment settings.
-
-## 4. Stop Container
-
-To stop a running container, use the following command:
-
-```bash
-docker stop <microservice-name>
-```
-
-Replace `<microservice-name>` with the name of the container, such as `hellomicroservice-container` or `knockknockmicroservice-container`.
-
-## 5. Remove Container
-
-To remove a container, use the command:
-
-```bash
-docker rm <microservice-name>
-```
-
-Replace `<microservice-name>` with the name of the container you want to remove.
-
-## 6. Remove Images
+## 3. Remove Images
 
 To remove the Docker images, use the following command:
 
