@@ -1,0 +1,86 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]istPublic/
+[Dd]evelopment/
+[Dd]ebug-linux-x64/
+[Dd]ebug-linux-x86/
+[Dd]ebug-osx-x64/
+[Dd]ebug-windows-x64/
+[Dd]ebug-windows-x86/
+[Dd]ebug-netcoreapp3.1/
+[Dd]ebug-netcoreapp2.1/
+[Dd]ebug-netcoreapp2.0/
+[Dd]ebug-netstandard2.0/
+[Dd]ebug-netstandard2.1/
+[Dd]ebug-net5.0/
+[Dd]ebug-net6.0/
+[Dd]ebug-net7.0/
+[Dd]ebug-net8.0/
+bin/
+obj/
+out/
+
+# User-specific files
+.idea/
+.vscode/
+.vs/
+.vsconfig
+appsettings.Development.json
+appsettings.Test.json
+appsettings.Production.json
+project.lock.json
+project.fragment.lock.json
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files (for non-64-bit arch)
+*.pdb
+
+# Windows Installer files (when debugging with Visual Studio)
+.vs2019/
+
+# User-specific files for Visual Studio for Mac
+.vscode/
+
+# .NET Core user-specific files
+**/.user
+**/.userosscache
+**/.suo
+**/.userosscache
+**/.sln.ide
+
+# Files for storing ASP.NET temporary data
+/Properties/launchSettings.json
+/.vsconfig
+
+# Windows Installer and other temporary files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# .NET Core publish output
+publish/
+
+# Ignore JetBrains Rider files
+.idea/
+
+# ASP.NET Core web config
+wwwroot/
+
+# npm packages and yarn files
+node_modules/
+yarn-error.log
+npm-debug.log
+
+# VS Code settings
+.vscode/
+
+# MacOS system files
+.DS_Store

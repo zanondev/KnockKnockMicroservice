@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  hellomicroservice:
+    image: hellomicroservice  
+    container_name: hellomicroservice-container
+    ports:
+      - "5015:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - minha-rede
+
+  knockknockmicroservice:
+    image: knockknockmicroservice  
+    container_name: knockknockmicroservice-container
+    ports:
+      - "8081:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - hellomicroservice
+    networks:
+      - minha-rede
+
+networks:
+  minha-rede:
